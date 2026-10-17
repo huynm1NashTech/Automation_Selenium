@@ -6,9 +6,9 @@ pipeline {
         bat 'python --version'
       }
     }
-    stage('hello') {
+    stage('automation_selenium') {
       steps {
-        bat 'robot Test1_6.robot'
+        bat 'pytest testscripts/'
       }
     }
   }
