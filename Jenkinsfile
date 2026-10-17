@@ -8,7 +8,7 @@ pipeline {
     }
     stage('automation_selenium') {
       steps {
-        bat 'pytest testscripts/'
+        bat 'pytest --html reports/report.html testscripts/'
       }
     }
   }
