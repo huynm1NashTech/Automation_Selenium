@@ -1,0 +1,21 @@
+{
+  "data" : [
+    {
+      "userEmail" : "standard_user",
+      "userPassword" : "secret_sauce"
+
+    },
+    {
+      "userEmail" : "performance_glitch_user",
+      "userPassword" : "secret_sauce"
+
+    },
+    {
+      "userEmail" : "user1",
+      "userPassword" : "user@123"
+
+    }
+  ]
+
+
+}
