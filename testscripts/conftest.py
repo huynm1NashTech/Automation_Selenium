@@ -11,5 +11,6 @@ def browserInstance():
     driver = webdriver.Chrome()
     driver.implicitly_wait( 5 )
     driver.get( "https://www.saucedemo.com/" )
+    driver.maximize_window()
     yield driver  #Before test function execution
     driver.close()  #post your test function execution
