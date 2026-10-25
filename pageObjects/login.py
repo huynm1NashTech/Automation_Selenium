@@ -29,4 +29,5 @@ class LoginPage(BrowserUtils):
         toast_locator = (By.XPATH, "//button[@id='react-burger-menu-btn']")
         wait.until(expected_conditions.visibility_of_element_located(toast_locator))
         print("Login Successful")
+        time.sleep(2)
 
